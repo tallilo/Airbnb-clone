@@ -10,7 +10,7 @@ import ListingCard from "../components/listings/ListingCard";
 import toast from "react-hot-toast";
 
 interface ReservationClientProps {
-  reservations: safeReservation;
+  reservations: safeReservation[];
   currentUser: SafeUser | null;
 }
 
