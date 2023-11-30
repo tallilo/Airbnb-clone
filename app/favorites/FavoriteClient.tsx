@@ -6,7 +6,7 @@ import ListingCard from "../components/listings/ListingCard";
 
 interface FavoriteClientProps {
   listings: SafeListing[];
-  currentUser: SafeUser;
+  currentUser: SafeUser | null;
 }
 
 export default function FavoriteClient({
