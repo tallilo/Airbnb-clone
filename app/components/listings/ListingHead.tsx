@@ -11,7 +11,7 @@ interface ListingHeadProps {
   locationValue: string;
   imageSrc: string;
   id: string;
-  currentuser?: SafeUser | null;
+  currentUser?: SafeUser | null;
 }
 
 export default function ListingHead({
