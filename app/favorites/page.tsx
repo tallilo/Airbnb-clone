@@ -16,3 +16,4 @@ export default async function page() {
   }
   return <FavoriteClient listings={listings} currentUser={currentUser} />;
 }
+//
