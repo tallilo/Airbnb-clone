@@ -26,3 +26,4 @@ const PropertiesPage = async () => {
 };
 
 export default PropertiesPage;
+///
