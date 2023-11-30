@@ -92,7 +92,7 @@ export default function SearchModal() {
       return undefined;
     }
     return "Back";
-  }, []);
+  }, [step]);
 
   const Map = useMemo(
     () => dynamic(() => import("../Map"), { ssr: false }),
